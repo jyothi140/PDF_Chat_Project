@@ -1,0 +1,9 @@
+SUCCESS: You are inside your Virtual Environment!
+Toolbox Location: C:\Users\Admin\Desktop\PDF chat project\.venv\scripts\python.exe
+
+Tip: Always check the bottom-right 'Status Bar' in VS Code!
+SUCCESS: You are inside your Virtual Environment!
+Toolbox Location: C:\Users\Admin\Desktop\PDF chat project\.venv\scripts\python.exe
+
+Tip: Always check the bottom-right Status Bar in VS Code!
+(.venv) PS C:\Users\Admin\Desktop\PDF chat project> 

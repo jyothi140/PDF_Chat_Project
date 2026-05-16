@@ -1,0 +1,12 @@
+[Running] python -u "c:\Users\Admin\Desktop\PDF chat project\src\app.py"
+Welcome to your AI Command Center!
+Success: VS Code sees your project files!
+
+[Done] exited with code=0 in 0.119 seconds
+
+[Running] python -u "c:\Users\Admin\Desktop\PDF chat project\src\app.py"
+Welcome to your AI Command Center!
+Success: VS Code sees your project files!
+
+[Done] exited with code=0 in 0.124 seconds
+
