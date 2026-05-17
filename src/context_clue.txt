@@ -1,0 +1,12 @@
+Analyzing sentence: 'The bank of the river'
+Focusing on the word: 'bank'
+
+--- Attention Weights (Importance) ---
+The     : # (5.0%)
+bank    : ## (10.0%)
+of      : # (5.0%)
+the     : # (5.0%)
+river   : ############### (75.0%)
+
+Conclusion: Because of high attention on 'river',
+the AI knows 'bank' means land, not a building.

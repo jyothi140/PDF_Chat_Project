@@ -1,0 +1,6 @@
+--- MODULE 1 MILESTONE CHECK --- 
+ ENV: Virtual Environment is ACTIVE.
+STRUCTURE: All project folders (src, docs, data) exist.
+
+ RESULT: System ready for 'Chat with your PDF' course!
+Running on: 3.14.5

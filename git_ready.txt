@@ -1,0 +1,6 @@
+--- Git Status Report ---
+On branch master
+nothing to commit, working tree clean
+
+
+ SUCCESS: Git is initialized and watching your files!

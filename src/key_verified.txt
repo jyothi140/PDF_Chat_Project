@@ -1,0 +1,2 @@
+ERROR: You haven't pasted your actual key yet!
+WARNING: That key looks a bit too short to be real.
