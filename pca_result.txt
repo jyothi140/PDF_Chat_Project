@@ -1,0 +1,15 @@
+---  The Vector Visualizer ---
+
+Sentence: The software update fixed the bug.
+   -> 2D Coordinates: X=-2.13, Y=0.44
+
+Sentence: Python is great for coding.
+   -> 2D Coordinates: X=-1.85, Y=0.71
+
+Sentence: The forest is full of green trees.
+   -> 2D Coordinates: X=2.41, Y=-0.38
+
+Sentence: Flowers bloom in the spring.
+   -> 2D Coordinates: X=2.02, Y=-0.77
+
+ SUCCESS: 768D squashed into 2D!
