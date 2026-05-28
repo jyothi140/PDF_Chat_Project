@@ -1,0 +1,5 @@
+--- semantic Search Lab ---
+User Query: 'Tell me about the central processing unit.'
+
+Top Match Found: 'The CPU is the brain of the computer.'
+Confidence Score: 0.7xxx
