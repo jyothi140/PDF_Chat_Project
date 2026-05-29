@@ -1,0 +1,12 @@
+---  Clustering Your Thoughts ---
+
+Group 1 | Sentence: Apples are a great source of fiber.
+Group 1 | Sentence: Bananas contain high levels of potassium.
+Group 0 | Sentence: Python is a versatile programming language.
+Group 0 | Sentence: Java is used for building enterprise apps.
+Group 1 | Sentence: Oranges are famous for Vitamin C.
+Group 0 | Sentence: C++ is a powerful language for systems.
+Group 2 | Sentence: The moon orbits the Earth.
+Group 2 | Sentence: Mars is known as the red planet.
+
+ SUCCESS: The AI automatically sorted your textbook into topics!
