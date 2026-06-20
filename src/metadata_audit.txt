@@ -1,0 +1,8 @@
+---  Metadata Investigation: docs\handshake_sample.pdf ---
+
+ Evidence Found!
+ Source Location: docs\handshake_sample.pdf
+ Page Number: 13
+
+Full Raw Metadata:
+{'source': 'docs\\handshake_sample.pdf', 'page': 13}

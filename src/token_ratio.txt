@@ -1,0 +1,6 @@
+---  Token vs. Character Audit ---
+Text: 'Learning AI is fantastic! Photosynthesis is complex.'
+
+Character Count: 53
+ Token Count: 10
+ Ratio: ~4.25 characters per token

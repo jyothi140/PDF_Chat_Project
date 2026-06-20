@@ -1,0 +1,10 @@
+---  The Brutal Chop: Fixed-Size Chunking ---
+
+Chunk 1 (35 chars): '\nThe CPU is the brain of the comput'
+Chunk 2 (35 chars): 'er. It handles all instructions. \nP'
+Chunk 3 (35 chars): 'ython is a great language for begin'
+Chunk 4 (35 chars): 'ners because its syntax is clean. \n'
+Chunk 5 (35 chars): 'Artificial Intelligence is changing'
+Chunk 6 (35 chars): ' the world as we know it today.\n'
+
+ NOTICE: Look at Chunk 1 and 2. Did a sentence get cut in half?

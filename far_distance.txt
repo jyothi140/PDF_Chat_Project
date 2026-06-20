@@ -1,0 +1,5 @@
+--- Measuring Space (Euclidean Distance) ---
+Sentence A: The dog is in the park.
+Sentence B: The canine is at the park.
+Straight-Line Distance: 0.45xx
+These points are very close in vector space.

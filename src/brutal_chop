@@ -1,0 +1,33 @@
+# Import the specialized 'Brutal' splitter from LangChain
+from langchain_text_splitters import CharacterTextSplitter
+
+# 1. A sample piece of text with clear sentence boundaries
+# Notice how the sentences vary in length
+raw_text = """
+The CPU is the brain of the computer. It handles all instructions. 
+Python is a great language for beginners because its syntax is clean. 
+Artificial Intelligence is changing the world as we know it today.
+"""
+
+print("---  The Brutal Chop: Fixed-Size Chunking ---")
+
+# 2. Initialize the Splitter
+# chunk_size=35 means "Cut every 35 characters"
+# separator="" means "Don't look for newlines, just cut anywhere"
+# chunk_overlap=0 means "Don't repeat any text between chunks"
+splitter = CharacterTextSplitter(
+    separator="", 
+    chunk_size=35, 
+    chunk_overlap=0
+)
+
+# 3. Perform the 'Chop'
+# This returns a list of strings
+chunks = splitter.split_text(raw_text)
+
+# 4. Loop through and see the damage
+for i, chunk in enumerate(chunks):
+    # We use repr() to show hidden characters like newlines \n
+    print(f"Chunk {i+1} ({len(chunk)} chars): {repr(chunk)}")
+
+print("\n NOTICE: Look at Chunk 1 and 2. Did a sentence get cut in half?")

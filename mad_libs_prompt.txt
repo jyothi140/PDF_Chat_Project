@@ -1,0 +1,8 @@
+--- The Prompt Template Lab ---
+Final Prompt to AI:
+You are a professional tutor. Explain the concept of Photosynthesis in exactly two sentences.
+
+Second Dynamic Prompt:
+You are a professional tutor. Explain the concept of Quantum Physics in exactly two sentences.
+
+SUCCESS: The template is dynamically filling the blanks!

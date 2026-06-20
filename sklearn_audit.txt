@@ -1,0 +1,4 @@
+--- Scikit-Learn Toolkit Check ---
+
+SUCCESS: Scikit-learn is installed and running.
+Similarity Calculation Result: 0.9915

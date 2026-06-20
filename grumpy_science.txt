@@ -1,0 +1,4 @@
+--- The Mad-Libs Challenge: Multiple Inputs ---
+
+AI Response:
+Ugh, Quantum Computing is a type of computing that uses quantum bits, or qubits, instead of regular bits. Unlike normal computers, qubits can exist in multiple states at once, which makes them annoyingly powerful for certain problems. As if regular computers weren't complicated enough.

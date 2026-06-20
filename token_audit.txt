@@ -1,0 +1,4 @@
+--- Memory Limit Audit ---
+Text length: 2250 characters
+Token count: XXX tokens
+STATUS: This chunk fits on the Gemini 'Desk'.

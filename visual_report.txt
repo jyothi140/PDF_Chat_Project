@@ -1,0 +1,16 @@
+---  Visualizing 6 Data Slices ---
+============================== CHUNK 1 ==============================
+The Moon is Earth's only natural satellite. It is about
+============================== CHUNK 2 ==============================
+It is about one-quarter the size of Earth.
+============================== CHUNK 3 ==============================
+The first human landing was in 1969.
+============================== CHUNK 4 ==============================
+Mars is known as the Red Planet. It has the largest volcano
+============================== CHUNK 5 ==============================
+the largest volcano in the solar system.
+============================== CHUNK 6 ==============================
+Scientists are looking for signs of ancient water.
+======================================================================
+
+ DEBUG TIP: Check the end of each chunk to see the 'Overlap' in action!

@@ -17,7 +17,8 @@ try:
     # 3. Use Gemini's embedding model to turn text into numbers
     # 'models/text-embedding-004' is a specialized model just for math
     result_1 = genai.embed_content(model="models/text-embedding-001", content=text_1)
-    result_2 = genai.embed_content(model="models/text-embedding-001", content=text_2)
+    result_2 = genai.embed_content(model="models/text-embedding-001" \
+    "", content=text_2)
 
     # 4. Extract the actual list of numbers (the vector)
     vector_1 = result_1['embedding']

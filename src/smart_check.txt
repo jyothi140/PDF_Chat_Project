@@ -1,0 +1,10 @@
+Smart Audit
+
+No words were cut.
+
+This result is better than the Brutal Chop because the
+RecursiveCharacterTextSplitter tries to split at paragraph
+breaks, line breaks, and spaces before cutting characters.
+
+As a result, words and sentences stay together, preserving
+meaning and improving RAG retrieval accuracy.

@@ -1,0 +1,7 @@
+--- The Output Parser Guard Lab ---
+
+RAW DATA (The Bag): content='Hello' id='run-abc123' usage_metadata={'input_tokens': 8, 'output_tokens': 1}
+Type of Raw: <class 'langchain_core.messages.ai.AIMessage'>
+
+ CLEAN TEXT (The Burger): 'Hello'
+Type of Clean: <class 'str'>

@@ -1,0 +1,4 @@
+---  LangChain Toolkit Audit ---
+ SUCCESS: LangChain-Google-Genai toolkit is active.
+ Model Assigned: gemini-1.5-flash
+Environment: API Key detected and ready for orchestration.

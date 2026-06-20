@@ -1,0 +1,5 @@
+LangSmith Debug Report
+
+Latency: 2.31 seconds
+
+Total Tokens: 125

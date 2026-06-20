@@ -1,0 +1,19 @@
+[33m8c117ab[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m feat: completed semantic search synonym matching lab
+[33m0253b5b[m feat: added euclidean distance calculation script
+[33m32106cf[m feat: added cosine similarity calculation for semantic search
+[33m0008467[m feat: generated first real embedding vector using Gemini
+[33m2a027fd[m feat: first text-to-vector embedding script
+[33mf2a6326[m[33m ([m[1;31morigin/master[m[33m)[m add module 2 completion file
+[33m8c19cb4[m milestone: module 2 complete - end-to-end connectivity verified
+[33mae285b9[m milestone: module 2 complete - end-to-end connectivity verified
+[33mc9cc254[m cleaup venv files
+[33mcb58d24[m cleanup:removed venv and protected env secrets
+[33m839f936[m security:added env protection
+[33m9f1c6c3[m feat:add probability distribution simulation
+[33m5cc9089[m feat: add LLM prediction simulation script
+[33m6b78007[m docs: complete module 1 milestone and verify enviroment
+[33m3a11bd9[m add final check script for module 1
+[33m1ed46c8[m added git status checker
+[33m1be1d7a[m initial project structure
+[33m96d6e81[m learned terminal navigation and directory checking
+[33m3450f0e[m completed command palette_test.py

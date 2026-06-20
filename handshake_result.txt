@@ -1,0 +1,4 @@
+---  Initiating PDF Handshake: docs\handshake_sample.pdf ---
+ HANDSHAKE SUCCESSFUL!
+ Total Pages Found: 13
+ Content Preview: UNIT1PARALLEL DATABASESIn the ever-expanding world...

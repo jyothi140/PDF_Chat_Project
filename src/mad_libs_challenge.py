@@ -24,9 +24,9 @@ Keep the explanation under 3 sentences.
 prompt_template = ChatPromptTemplate.from_template(template)
 
 # 5. Build the Chain (Prompt -> Model -> Parser)
-# The pipe (|) connects the flow
-chain = prompt_template | model | parser = StrOutputParser()
-
+# The pipe (|) connects the fl
+parser = StrOutputParser()
+chain = prompt_template | model | parser
 print("---  The Mad-Libs Challenge: Multiple Inputs ---")
 
 try:

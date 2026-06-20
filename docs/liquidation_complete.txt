@@ -1,0 +1,10 @@
+---  MILESTONE: Starting Data Liquidation Pipeline ---
+ Phase 1: Loaded 39 raw pages from PDF.
+ Phase 2: Chopped PDF into 173 optimized chunks.
+
+---  SAMPLE CHUNK AUDIT ---
+ Content: #Basic terminologies of data science 
+Data Science is a multi-disciplinary science with an objective...
+ Metadata: {'producer': 'iLovePDF', 'creator': 'PyPDF', 'creationdate': '', 'moddate': '2024-01-18T15:33:57+00:00', 'source': 'docs\\textbook.pdf', 'total_pages': 39, 'page': 0, 'page_label': '1'}
+
+ 

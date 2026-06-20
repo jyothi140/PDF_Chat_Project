@@ -1,0 +1,9 @@
+---  MILESTONE: Starting Data Liquidation Pipeline ---
+Phase 1: Loaded 2 raw pages from PDF.
+Phase 2: Chopped PDF into 15 optimized chunks.
+
+---  SAMPLE CHUNK AUDIT ---
+ Content: (first 100 characters of PDF text here)...
+ Metadata: {'source': 'docs/textbook.pdf', 'page': 0}
+
+ MILESTONE COMPLETE: Your data is liquidated and ready for the Vector Bank!

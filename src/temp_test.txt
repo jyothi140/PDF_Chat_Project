@@ -1,0 +1,5 @@
+Response 1:
+A PDF is a digital paper container that preserves formatting across devices.
+
+Response 2:
+A PDF is a universal electronic document format designed to look identical on any platform.

@@ -1,0 +1,9 @@
+--- Sending First API Call ---
+
+AI Response: Hi! Your Chat with PDF project sounds exciting!
+
+SUCCESS: Your connection to the LLM is LIVE!--- Sending First API Call ---
+
+AI Response: Hi! Your Chat with PDF project sounds exciting!
+
+SUCCESS: Your connection to the LLM is LIVE!

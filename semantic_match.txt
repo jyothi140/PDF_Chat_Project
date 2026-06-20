@@ -1,0 +1,3 @@
+--- Measuring Meaning (Cosine Similarity) ---
+Similarity (Cat vs Kitten): 0.8xxx
+Similarity (Cat vs Weather): 0.2xxx

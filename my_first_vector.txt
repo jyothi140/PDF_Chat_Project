@@ -1,0 +1,7 @@
+--- Generating Embedding Vectors ---
+
+Sentence: 'I love training AI models.'
+Vector Length: 768 numbers
+First 5 numbers: [0.0214, -0.0138, 0.0451, 0.1027, -0.0089]
+
+SUCCESS: Human language converted into math!

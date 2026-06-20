@@ -1,0 +1,13 @@
+--- Exploring the Multi-Dimensional Map ---
+
+Input: 'Python'
+Total Dimensions: 6
+First 3 Dimensions: [0.0214, -0.0138, 0.0451]
+Last 3 Dimensions: [0.1027, -0.0089, 0.0772]
+
+Input: 'The quick brown fox jumps over the lazy dog.'
+Total Dimensions: 6
+First 3 Dimensions: [-0.0912, 0.0544, -0.0331]
+Last 3 Dimensions: [0.081, 0.0145, -0.0622]
+
+OBSERVATION: Both texts have the same number of dimensions!

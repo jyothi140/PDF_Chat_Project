@@ -1,0 +1,4 @@
+--- Persona Test: Science Teacher ---
+
+Teacher AI says:
+A Large Language Model is like a very smart student that has read millions of books, articles, and websites. It learns patterns in language so it can answer questions, write stories, and help people communicate.
