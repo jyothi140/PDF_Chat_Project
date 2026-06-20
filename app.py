@@ -1,23 +1,30 @@
-# Import the Streamlit library to build our web interface
+# Import streamlit to build the interface
 import streamlit as st
+# Import random to demonstrate how the script 'reruns'
+import random
 
-# 1. Set the page configuration (The text that appears on the browser tab)
-st.set_page_config(page_title="PDF Chat Bot", page_icon="")
+# 1. Page configuration (Always at the top!)
+st.set_page_config(page_title="Magic Rerun Lab", page_icon="🪄")
 
-# 2. Create a Header (The main title on the screen)
-st.title(" Chat with your PDF")
+# 2. Add a Title
+st.title(" The Magic Execution Lab")
 
-# 3. Create a Subheader (A smaller description)
-st.subheader("Turn your textbooks into an interactive conversation.")
+# 3. This number will change EVERY time the script reruns
+# It proves Streamlit runs from top-to-bottom on every interaction
+lucky_number = random.randint(1, 100)
+st.write(f" Your 'Lucky Number' for this rerun is: **{lucky_number}**")
 
-# 4. Add some simple text to the screen
-st.write("Welcome! This app uses RAG technology to answer questions from your documents.")
+# 4. Create a button to trigger a rerun
+if st.button("Trigger a Rerun"):
+    # When you click this, the whole script starts over from line 1
+    st.write("The button was clicked! Streamlit is rerunning...")
 
-# 5. Create a Button and tell it what to do when clicked
-if st.button("Say Hello to my AI"):
-    # This code only runs when the user clicks the button
-    st.success("Hello, Future AI Engineer! Your interface is working.")
-    
-# 6. Add a sidebar for extra settings later
-st.sidebar.title("App Settings")
-st.sidebar.info("Upload your PDF to get started.")
+# 5. Add a text input to trigger a rerun
+# Every time you type and hit 'Enter', the script reruns
+user_text = st.text_input("Type something and hit Enter:")
+if user_text:
+    st.write(f"You typed: {user_text}")
+
+# 6. Debug message to show where we are
+st.info(" Tip: Look at the top right of the browser for the 'Always rerun' option!")
+

@@ -1,0 +1,6 @@
+--- Building the Retriever Object ---
+ Question: How do plants get energy?
+Retriever found 2 relevant documents:
+
+ Chunk 1: Photosynthesis is how plants turn sunlight into energy.
+ Chunk 2: Python is a popular programming language for data science.

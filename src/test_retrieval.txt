@@ -1,0 +1,11 @@
+---  Similarity Search Health Check ---
+ Query: What is the main subject of this document?
+ Found 2 relevant chunks in the PDF.
+
+ MATCH 1 (Page 1):
+This document explains the basics of PDF processing, chunking, and vector search using FAISS...
+------------------------------
+
+ MATCH 2 (Page 2):
+The process of splitting documents into smaller chunks helps improve retrieval performance...
+------------------------------

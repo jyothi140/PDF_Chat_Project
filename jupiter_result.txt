@@ -1,0 +1,5 @@
+---  RAG Chain: System Online ---
+
+User: How many planets are in the solar system?
+
+AI: There are eight planets in the solar system.

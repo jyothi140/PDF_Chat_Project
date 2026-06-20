@@ -1,0 +1,12 @@
+--- Context Injection Lab: Debugging Mode ---
+
+INJECTED CONTEXT FOUND:
+--------------------------------
+The secret code to the vault is 12345.
+--------------------------------
+
+FINAL PROMPT SENT TO AI'S BRAIN:
+Answer based on this context: The secret code to the vault is 12345.
+Question: What is the secret code?
+
+AI ANSWER: The secret code to the vault is 12345.

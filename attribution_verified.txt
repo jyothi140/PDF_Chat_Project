@@ -1,0 +1,5 @@
+--- Source Attribution Audit ---
+
+AI Answer: Our headquarters are in San Francisco.
+Source: manual.pdf
+Found on Page: 13

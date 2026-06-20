@@ -1,0 +1,17 @@
+---  The RAG Blueprint Lab ---
+ [STEP 1: RETRIEVE] Found relevant context in PDF...
+ [STEP 2: AUGMENT] Combining context with user query...
+
+--- FINAL PROMPT SENT TO AI ---
+
+You are a helpful assistant. 
+Use the following pieces of retrieved context to answer the question. 
+If you don't know the answer, just say that you don't know. 
+
+Context: The capital of France is Paris. It is known for the Eiffel Tower.
+
+Question: What is the capital of France?
+
+Answer:
+
+ [STEP 3: GENERATE] AI reads the context and provides the fact-based answer.

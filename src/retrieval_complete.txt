@@ -1,0 +1,13 @@
+ --- STARTING RETRIEVAL MILESTONE PIPELINE ---
+ PDF Liquidated into 18 chunks.
+ Vector Database & Retriever Online.
+
+ User Question: What is the most important takeaway from this document?
+
+ AI Answer:
+The document explains the core concepts of the topic and focuses on key ideas and summaries of the content.
+
+ Verified Sources:
+- Page 2: docs/textbook.pdf
+- Page 5: docs/textbook.pdf
+- Page 8: docs/textbook.pdf

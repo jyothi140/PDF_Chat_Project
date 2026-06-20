@@ -1,0 +1,7 @@
+--- Hallucination Guardrail Lab ---
+
+Test 1: Valid Question...
+AI: The office is open from 9 AM to 5 PM, Monday to Friday.
+
+Test 2: Out-of-Context Question...
+AI: I am sorry, but that information is not in the office manual.

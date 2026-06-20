@@ -1,0 +1,13 @@
+Streamlit Interface Check
+
+Status: SUCCESS
+
+- Streamlit app launched successfully on http://localhost:8501
+- Title "Chat with your PDF" is displayed
+- Subheader is visible
+- Button "Say Hello to my AI" works correctly
+- Success message is displayed:
+  "Hello, Future AI Engineer! Your interface is working."
+- Sidebar is working properly
+
+Conclusion: UI setup is working fine and Streamlit integration is successful.
