@@ -1,5 +1,0 @@
-[33m6f57351[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/master[m[33m)[m chore: generate requirements.txt snapshot for environment reproducibility
-[33m259027e[m chore: clean workspace and remove non-essential test files
-[33m2db334b[m security: add .gitignore to protect secrets and ignore bulky files
-[33m1e9e29e[m docs: add portfolio readiness checklist
-[33m7930aea[m config: added streamlit debugger configuration
