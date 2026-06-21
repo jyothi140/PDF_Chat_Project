@@ -2,3 +2,20 @@ venv/
 __pycache__/
 *.pyc
 .env
+# 1. PROTECT THE KEYS: Ignore the .env file containing your Google API Key
+.env
+
+# 2. IGNORE THE TOOLS: Don't upload the entire Virtual Environment (too bulky)
+venv/
+.venv/
+env/
+
+# 3. IGNORE THE BULK: Don't upload the actual PDF files (keeps the repo light)
+*.pdf
+
+# 4. IGNORE THE TRASH: Hide temporary Python cache files
+__pycache__/
+*.py[cod]
+
+# 5. IGNORE LOCAL DATABASE: Hide the local FAISS index folders
+faiss_indexecution (Visual Check)
