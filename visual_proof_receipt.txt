@@ -1,0 +1,10 @@
+Visual Proof Verified
+
+Streamlit application screenshot captured successfully.
+
+Image Location:
+./assets/app-screenshot.png
+
+README.md updated with App Preview section.
+
+Markdown Preview verified and image rendered correctly.
