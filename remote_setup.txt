@@ -1,0 +1,2 @@
+origin  https://github.com/jyothi140/PDF_Chat_Project.git (fetch)
+origin  https://github.com/jyothi140/PDF_Chat_Project.git (push)
