@@ -1,0 +1,28 @@
+Vault Audit Completed
+
+Project: PDF Chat Project
+
+Ignored Files/Folders:
+
+* .env
+* venv/
+* .venv/
+* env/
+* *.pdf
+* **pycache**/
+* *.py[cod]
+* faiss_index/
+
+Verification:
+ API keys protected using .env rule
+ Virtual environment folders ignored
+ PDF files excluded from repository
+ Python cache files ignored
+ Local FAISS index ignored
+
+VS Code Explorer Check:
+ .env appears greyed out
+ .venv appears greyed out
+ Ignored files are dimmed in Explorer
+
+Status: Vault Secured 
