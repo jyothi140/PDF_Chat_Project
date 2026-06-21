@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    "version": "0.2.0", // The version of the debugger configuration format
+    "configurations": [ // A list of different ways we can 'launch' our project
+        {
+            "name": "Streamlit: Current File", // The name that appears in the Debug dropdown
+            "type": "debugpy", // Tells VS Code to use the Python debugger
+            "request": "launch", // We want to START the app (not attach to an existing one)
+            "module": "streamlit", // IMPORTANT: Tells Python to run 'streamlit' as a module
+            "args": [ // These are the extra commands we usually type in the terminal
+                "run", // The first command for streamlit
+                "${file}", // A variable that means 'Whatever file I have open right now'
+                "--server.port", // Command to set the port
+                "8501" // The default port for Streamlit
+            ],
+            "jinja": true, // Enables debugging for templates if needed
+            "justMyCode": true // Tells the debugger to ignore the math libraries and only show YOUR code errors
+        }
+    ]
+}
