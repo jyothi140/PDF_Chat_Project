@@ -16,3 +16,8 @@
 
 ---
 *Status: Preparing for Deployment *
+### Final Audit Log
+- [ ] .env file is NOT in the file list (Verified by .gitignore)
+- [ ] requirements.txt contains all libraries
+- [ ] README.md has a working screenshot
+- [ ] Visibility is set to PUBLIC on GitHub
