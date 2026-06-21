@@ -1,30 +1,40 @@
-# Import streamlit to build the interface
+# Import the streamlit library
 import streamlit as st
-# Import random to demonstrate how the script 'reruns'
-import random
 
-# 1. Page configuration (Always at the top!)
-st.set_page_config(page_title="Magic Rerun Lab", page_icon="🪄")
+# 1. Page Configuration
+st.set_page_config(page_title="PDF Architect", layout="wide")
 
-# 2. Add a Title
-st.title(" The Magic Execution Lab")
+# 2. THE SIDEBAR: Everything inside this 'with' block goes to the left panel
+with st.sidebar:
+    # Add a title to the sidebar
+    st.title(" Control Center")
+    
+    # Add an informational 'Info' box for user instructions
+    st.info("Step 1: Upload your PDF\nStep 2: Ask a question")
+    
+    # Add a divider for clean visual separation
+    st.divider()
+    
+    # Add a status indicator (we will make this dynamic later!)
+    st.markdown("### 🚦 System Status")
+    st.success("PDF Engine: Ready")
+    
+    # Add a version number at the bottom of the sidebar
+    st.caption("v1.0.4 - Phase 2 Internship")
 
-# 3. This number will change EVERY time the script reruns
-# It proves Streamlit runs from top-to-bottom on every interaction
-lucky_number = random.randint(1, 100)
-st.write(f" Your 'Lucky Number' for this rerun is: **{lucky_number}**")
+# 3. THE MAIN AREA: This stays in the center of the screen
+st.title(" Chat with your PDF")
 
-# 4. Create a button to trigger a rerun
-if st.button("Trigger a Rerun"):
-    # When you click this, the whole script starts over from line 1
-    st.write("The button was clicked! Streamlit is rerunning...")
+# Create a placeholder for where the chat will eventually go
+st.write("The main area is now clean and ready for your conversation.")
 
-# 5. Add a text input to trigger a rerun
-# Every time you type and hit 'Enter', the script reruns
-user_text = st.text_input("Type something and hit Enter:")
-if user_text:
-    st.write(f"You typed: {user_text}")
+# 4. Use a Column layout in the main area for a 'Featured' look
+col1, col2 = st.columns([3, 1]) # Create two columns: one wide, one narrow
 
-# 6. Debug message to show where we are
-st.info(" Tip: Look at the top right of the browser for the 'Always rerun' option!")
+with col1:
+    st.subheader("Recent Activity")
+    st.write("No questions asked yet.")
 
+with col2:
+    # This acts like a mini-sidebar on the right side
+    st.button("Clear Chat History")

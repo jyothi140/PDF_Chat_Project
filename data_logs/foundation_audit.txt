@@ -1,0 +1,7 @@
+PDF Chat Architect
+
+Your Intelligent PDF Retrieval Assistant
+
+---------------------------------
+
+The foundation is set. Ready to integrate the RAG engine.
