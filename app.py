@@ -1,29 +1,32 @@
 import streamlit as st
 
-# 1. Page Configuration
-st.set_page_config(page_title="PDF Loader", layout="wide")
+# 1. Page Setup
+st.set_page_config(page_title="PDF Chat Room", layout="wide")
 
-# 2. THE SIDEBAR: Where the 'Deposit Slot' lives
+# 2. Sidebar (From our previous lesson)
 with st.sidebar:
-    st.title(" Document Center")
-    
-    # 3. THE UPLOADER: This creates the drag-and-drop widget
-    # label: The text above the box
-    # type: We restrict this to 'pdf' so users don't upload images or music
-    uploaded_file = st.file_uploader("Upload a PDF textbook", type="pdf")
-    
-    # 4. THE SUCCESS HANDSHAKE: Check if a file was actually dropped in
-    if uploaded_file is not None:
-        # Display a success message with the file name
-        st.success(f"Successfully uploaded: {uploaded_file.name}")
-        
-        # 5. DEBUG INFO: Show the file size (just to prove we have it!)
-        file_size = len(uploaded_file.getvalue()) / 1024
-        st.info(f"File Size: {file_size:.2f} KB")
-    else:
-        # Remind the user what to do if the slot is empty
-        st.warning("Please upload a PDF to begin.")
+    st.title(" Documents")
+    st.file_uploader("Upload PDF", type="pdf")
 
-# 3. THE MAIN AREA
-st.title(" AI Research Assistant")
-st.write("Upload a document in the sidebar to start the conversation.")
+# 3. THE MAIN CHAT AREA
+st.title("PDF Research Room")
+
+# 4. THE BUBBLES: Creating a 'User' bubble
+# Using 'with' tells Streamlit: 'Put everything inside this bubble'
+with st.chat_message("user"):
+    st.write("Hello! Can you help me find information in my PDF?")
+
+# 5. THE BUBBLES: Creating an 'Assistant' bubble
+with st.chat_message("assistant"):
+    st.write("Of course! Please upload a file and ask away.")
+
+# 6. THE INPUT: This adds the sticky text box at the bottom
+# We use the 'walrus operator' (:=) to check if the user typed something
+if user_prompt := st.chat_input("Type your question here..."):
+    # 7. ECHO: If the user types, show their message in a new bubble
+    with st.chat_message("user"):
+        st.write(user_prompt)
+    
+    # 8. RESPONSE: Show a placeholder 'Assistant' response
+    with st.chat_message("assistant"):
+        st.write(f"I am processing your question: '{user_prompt}'")
